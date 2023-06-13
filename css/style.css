@@ -1,0 +1,307 @@
+html {
+    block-size: 100%;
+    inline-size: 100%;
+  }
+  
+  /* Styles for the navbar */
+  .navbar {
+    padding: 40px 40px;
+    background-color: #000000;
+    font-family: "Helvetica", Sans-Serif;
+    font-weight: 700;
+    block-size: 90px;
+    justify-content: space-between;
+  }
+  
+  
+  .navbar .navbar-brand img {
+    block-size: 30px;
+    margin-inline-start: 250px;
+  }
+  
+  .navbar .nav {
+    justify-content: flex-end;
+    margin-inline-end: 250px;
+  }
+  
+  .navbar .nav .nav-item {
+    margin-inline-end: 10px;
+  }
+  
+  .nav-button {
+    color: #1ED760;
+    padding-block-start: 8px;
+  }
+  
+  .nav-button:hover {
+    color: #1ED760;
+    padding-block-start: px;
+    text-decoration: none;
+  }
+  
+  .navbar .nav .nav-link {
+    color: white;
+  
+  }
+  
+  .navbar .nav .nav-link:hover {
+    color: #1ED760;
+    text-decoration: none;
+  }
+  
+  .nav-button dropdown-toggle {
+    margin-block-start: 20px;
+    font-family: "Helvetica", Sans-Serif;
+    font-weight: 700;
+  }
+  
+  
+  
+  .dropdown-item1 {
+    display: block;
+    margin-block-start: 10px;
+    margin-block-end: 10px;
+    margin-inline-start: 10px;
+    font-family: "Helvetica", Sans-Serif;
+    font-weight: 700;
+    color: black;
+  }
+
+  .dropdown-item1:hover {
+    font-family: "Helvetica", Sans-Serif;
+    color: #1ED760;
+    background-color: white;
+    text-decoration: none;
+  }
+  
+  /* feature section */
+  
+  #feature-container {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    inline-size: 100%;
+    color: white;
+    padding-block-start: 50px;
+    padding-block-end: 50px;
+  }
+  
+  .section-header {
+    display: flex;
+    justify-content: center;
+    padding-block-end: 40px;
+  }
+  
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px;
+    inline-size: 100%;
+    align-items: center;
+  }
+  
+  
+  
+  .col-sm {
+    display: flex;
+    flex-direction: column;
+    max-block-size: 600px;
+    inline-size: 100%;
+  }  
+
+  
+.col-sm img {
+    display: flex;
+    block-size: 700px;
+    inline-size: 350px;
+    justify-content: center;
+  }
+  
+  .display {
+    font-size: 64px;
+    text-align: start;
+  }
+  
+  .content {
+    text-align: start;
+  
+  }
+  
+  .link {
+    color: #1ED760;
+  }
+  
+  .link:hover {
+    color: #1ED760;
+    opacity: 70%;
+  }
+  
+  /**
+  .display {
+    text-align: start;
+    inline-size: 200px;
+    justify-content: center;
+    inset-inline-start: 30%;
+    position: absolute;
+    block-size: 400px;
+    inset-block-start: 35%;
+  }
+
+  .content {
+  text-align: start;
+  inline-size: 200px;
+  justify-content: center;
+  inset-inline-start: 30%;
+  position: absolute;
+  block-size: 400px;
+  inset-block-start: 50%;
+}
+**/
+
+
+.Search {
+    text-align: start;
+    font-size: 64px;
+  }
+  
+  .content-1 {
+    text-align: start;
+  }
+  
+  
+  /* Styles for the jumbotron */
+  #hero-section {
+    background-image: url("../Images/Frame\ 72.png");
+    background-position: center;
+    background-size: auto 100%;
+    background-color: #c229ba;
+    block-size: fit-content;
+    /* Adjust the height value as per your requirements */
+  }
+  
+  .jumbotron {
+    background-color: transparent !important;
+    border-radius: 0.3rem;
+    text-align: center;
+    justify-content: center;
+  }
+  
+  .jumbotron .rockBackground {
+    background-color: #000000;
+    color: #fff;
+  }
+  
+  .container1 {
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .jumbotron .jumboCopy hero-img img {
+    inline-size: 100%;
+    max-block-size: 3rem;
+  
+  }
+  
+  .jumbotron .jumboCopy .logo-image img {
+    align-items: right;
+    inline-size: 50%;
+    max-block-size: 100px;
+  }
+  
+  .jumbotron .display-4 {
+    font-size: 2rem;
+    margin-block-start: 1rem;
+    margin-block-end: 0.5rem;
+    text-align: start;
+    color: white;
+  }
+  
+  .jumbotron .lead {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-block-end: 2rem;
+    text-align: start;
+    color: white;
+  }
+  
+  .jumbotron .btnhero-primary {
+    background-color: white;
+    color: #000000;
+    border: none;
+  font-weight: normal;
+  padding: 0.5rem 2rem;
+  font-size: 1.5rem;
+  border-radius: 50px;
+  justify-content: left;
+}
+
+.jumbotron .btnhero-primary:hover {
+  background-color: white;
+  color: #1ED760;
+  padding: 0.7rem 2.2rem;
+  text-decoration: none;
+}
+
+
+
+/* ready section */
+#ready {
+  background-image: url("../Images/Frame\ 72.png");
+  background-size: cover;
+  background-position: center;
+  align-items: center;
+  justify-content: center;
+  padding-block-start: 50px;
+  block-size: 400px;
+
+}
+
+.jumbotron {
+  background-color: transparent !important;
+  border-radius: 0.3rem;
+  text-align: center;
+  justify-content: center;
+}
+
+.jumbotron .readydisplay {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-block-end: 2rem;
+
+}
+
+.jumbotron .btn-primary {
+  background-color: #00db04;
+  color: #000000;
+  border: none;
+  font-weight: normal;
+  padding: 0.5rem 2rem;
+  font-size: 1.5rem;
+  border-radius: 50px;
+}
+
+.jumbotron .btn-primary:hover {
+  background-color: #00db04;
+  color: white;
+  border: none;
+  font-weight: normal;
+  padding: 0.6rem 2.2rem;
+  text-decoration: none;
+  border-radius: 50px;
+}
+
+/* Additional styles */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-inline-size: 1200px;
+  margin: 0 auto;
+
+}
+
+
+  
